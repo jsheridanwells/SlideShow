@@ -1,1 +1,5 @@
-'use strict';
+// 'use strict';
+
+// var Slides = (function(){
+	
+// }());
