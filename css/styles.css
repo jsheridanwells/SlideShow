@@ -6,11 +6,11 @@
 	height: 70vh;
 }
 
-/*.image-container {
-	margin: 5em;
-}*/
+.title {
+	text-align: center;
+}
 
-img#image-frame {
+img.image-frame {
 	margin: auto;
 	height: 400px;
 }

@@ -12,11 +12,8 @@ var Slides = (function(obj){
 		'This is my grandfather with his sisters'
 	];
 
-	obj.getCaption = function(index) {
+	obj.getCaption = function(index) {  //makes captions accessible to other parts of the program
 		return captions[index];
 	};
-	obj.returnCaptionsLength = function() {
-		return captions.length;
-	};
 	return obj;
-}(Slides || {}));
+})(Slides || {});
